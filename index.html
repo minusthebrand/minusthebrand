@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<style>
-div.container {
-    position: relative }
-div.container p {
+<style type="text/css">
+*:focus {
+	outline: none;
+}
+textarea {
+	outline: none;
+	border: none;
+	resize: none;
     color: white;
     font-family: sans-serif;
     font-size: 10em;}
+	}    
 </style>
 <head>
   <title>minus the brand</title>
 </head>
 <body>
-<div class=container>
-  <p>minus the brand</p>
-</div>
+<textarea id='minusthebrand'>minus the brand</textarea>
+<script>window.onload = document.getElementById('minusthebrand').select();</script>    
 </body>
 </html>
